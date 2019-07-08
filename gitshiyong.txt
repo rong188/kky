@@ -4,3 +4,5 @@ git add gitshiyong.txt
 git commit -m "rongtijiao"
 git status
 git diff gitshiyong.txt
+git log
+git reset --hard HEAD^
