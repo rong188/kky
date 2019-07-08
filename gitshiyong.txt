@@ -1,3 +1,6 @@
 $ git config --global user.name "rong"
 $ git config --global user.email "rong.lin@easiio.com"
 git add gitshiyong.txt
+git commit -m "rongtijiao"
+git status
+git diff gitshiyong.txt
