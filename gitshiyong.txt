@@ -6,3 +6,7 @@ git status
 git diff gitshiyong.txt
 git log
 git reset --hard HEAD^
+git reset? --hard °æ±¾ºÅ
+git reflog
+git checkout? --? readme.txt
+ssh-keygen -t rsa -C ¡°rong.lin@easiio.com¡±
