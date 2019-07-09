@@ -1,7 +1,7 @@
-$ git config --global user.name "rong"
-$ git config --global user.email "rong.lin@easiio.com"
+$ git config --global user.name "rong"    配置用户名
+$ git config --global user.email "rong.lin@easiio.com" 配置邮箱
 git add gitshiyong.txt
-git commit -m "rongtijiao"
+git commit -m "rongtijiao"   提交本地库 日志
 git status
 git diff gitshiyong.txt
 git log
@@ -9,4 +9,6 @@ git reset --hard HEAD^
 git reset? --hard 版本号
 git reflog
 git checkout? --? readme.txt
-ssh-keygen -t rsa -C “rong.lin@easiio.com”
+ssh-keygen -t rsa -C “rong.lin@easiio.com”     sshkey 为了增加远程库
+git remote add origin https://github.com/rong188/kky  
+git push -u origin master 推本地库到远程库
