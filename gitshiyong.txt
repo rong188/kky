@@ -10,5 +10,6 @@ git reset? --hard 版本号
 git reflog
 git checkout? --? readme.txt
 ssh-keygen -t rsa -C “rong.lin@easiio.com”     sshkey 为了增加远程库
-git remote add origin https://github.com/rong188/kky  
+git remote add origin https://github.com/rong188/kky   远程库关联本地库
 git push -u origin master 推本地库到远程库
+git pull origin master  拉远程库到本地库
